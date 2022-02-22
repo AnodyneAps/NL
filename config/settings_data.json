@@ -71,7 +71,7 @@
     "dbtfy_back_in_stock": true,
     "dbtfy_cart_countdown": false,
     "dbtfy_cart_favicon": false,
-    "dbtfy_cart_discount": false,
+    "dbtfy_cart_discount": true,
     "dbtfy_collection_addtocart": false,
     "dbtfy_collection_filters": false,
     "dbtfy_color_swatches": true,
@@ -95,6 +95,7 @@
     "dbtfy_shop_protect": false,
     "dbtfy_skip_cart": false,
     "dbtfy_size_chart": false,
+    "dbtfy_social_discount": false,
     "dbtfy_sticky_addtocart": false,
     "synced_variant_image": false,
     "dbtfy_wish_list": false,
@@ -105,7 +106,8 @@
     "dbtfy_cart_discount_label": "Kortingscode",
     "dbtfy_cart_discount_placeholder": "Vul hier je kortingscode in",
     "dbtfy_cart_discount_apply_button_label": "Gebruik kortingscode",
-    "nlify_cart_notification": "Heeft u de maattabel gecontroleerd voor de juiste maat?",
+    "nlify_cart_notification": "Koop meer, bespaar meer! Wij bieden u een volumekorting op de meeste van onze producten. U kunt volumekortingen ook combineren met kortingscodes.",
+    "nlify_custom_drawer_icon": "",
     "dbtfy_cart_goal_before_text": "Nog",
     "dbtfy_cart_goal_amount": "59",
     "dbtfy_cart_goal_after_text": "te gaan tot GRATIS verzending!",
@@ -238,129 +240,129 @@
           "b564488c-98d5-4f94-bf67-5c797a39b907": {
             "type": "cart-upsell",
             "settings": {
-              "dbtfy_cart_general_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt eller BH.",
-              "dbtfy_cart_general_upsell_product_offer": "waszakje-voor-posture-shirt",
-              "dbtfy_cart_general_upsell_btn_title": "ja, graag"
+              "dbtfy_cart_general_upsell_title": "Speciale aanbieding! Het rugkussen is een goede keuze als u veel uren van de dag achter uw bureau doorbrengt. Normale prijs €59,00",
+              "dbtfy_cart_general_upsell_product_offer": "ergonomisch-rugkussen",
+              "dbtfy_cart_general_upsell_btn_title": "Ja, graag"
             }
           },
           "c3446fb4-9a5f-4549-8273-01f528098e07": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Bestel een Houding Corrector Basic voor minder dan de helft van de prijs (norm. €39,00)",
+              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw BH.",
               "dbtfy_cart_specific_upsell_product_trigger": "anodyne-bh",
-              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, graag"
+              "dbtfy_cart_specific_upsell_product_offer": "copy-of-30x21x7cm",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
           "6faf8517-b5d9-4614-bec9-8fd0967271d7": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Bestel een Houding Corrector Basic voor minder dan de helft van de prijs (norm. €39,00)",
+              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zwart",
-              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, graag"
+              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
           "9ca4a642-b7c5-4e22-87e6-04e1afd4d9e6": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Bestel een Houding Corrector Basic voor minder dan de helft van de prijs (norm. €39,00)",
+              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zwart",
-              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, graag"
+              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
           "d9a52d21-9ca2-406d-be42-079b07063473": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Bestel een Houding Corrector Basic voor minder dan de helft van de prijs (norm. €39,00)",
+              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-wit",
-              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, graag"
+              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
           "0d9ed706-6609-450b-97ef-31c754894a38": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Bestel een Houding Corrector Basic voor minder dan de helft van de prijs (norm. €39,00)",
+              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-wit",
-              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, graag"
+              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
           "3cf3ca1e-1b61-4fe0-8965-9e97caf918f7": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Bestel een Houding Corrector Basic voor minder dan de helft van de prijs (norm. €39,00)",
+              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-zwart",
-              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, graag"
+              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
           "40f7936e-4d11-49a1-b89a-5cac35cec45e": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Bestel een Houding Corrector Basic voor minder dan de helft van de prijs (norm. €39,00)",
+              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-zwart",
-              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, graag"
+              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
           "1972526d-f46d-40fc-8de1-b79c19196707": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Bestel een Houding Corrector Basic voor minder dan de helft van de prijs (norm. €39,00)",
+              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-wit",
-              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, graag"
+              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
           "e1cc26ae-fda0-4fc7-ab47-f18e210e3d9c": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Bestel een Houding Corrector Basic voor minder dan de helft van de prijs (norm. €39,00)",
+              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-wit",
-              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, graag"
+              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
           "d853a89f-b2f0-4f91-85a8-5109d67451d7": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Bestel een Houding Corrector Basic voor minder dan de helft van de prijs (norm. €39,00)",
+              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-mint",
-              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, graag"
+              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
           "125a7c9a-e4bc-4606-a8b4-cf0701a29972": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Bestel een Houding Corrector Basic voor minder dan de helft van de prijs (norm. €39,00)",
+              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-nude",
-              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, graag"
+              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
           "82acbcd6-7d52-44dc-aae3-0bf86379391d": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Bestel een Houding Corrector Basic voor minder dan de helft van de prijs (norm. €39,00)",
+              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-nude",
-              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, graag"
+              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           }
         },
@@ -849,7 +851,7 @@
               "title": "Snelle levering",
               "description": "Gratis verzending voor aankopen boven €59,00",
               "icon": "shopify:\/\/shop_images\/Truck.png",
-              "uspLinkUrl": "shopify:\/\/pages\/verzending-en-retour"
+              "uspLinkUrl": "shopify:\/\/pages\/verzending-en-levering"
             }
           },
           "1630063768bdfa2f5f-1": {
@@ -858,7 +860,7 @@
               "title": "Gratis retourneren en ruilen",
               "description": "Wij zorgen voor een retourlabel",
               "icon": "shopify:\/\/shop_images\/Returns.png",
-              "uspLinkUrl": "shopify:\/\/pages\/verzending-en-retour"
+              "uspLinkUrl": "shopify:\/\/pages\/verzending-en-levering"
             }
           },
           "66c69b66-4ba2-424e-a46c-68c81d83d5c4": {
@@ -867,7 +869,7 @@
               "title": "100% Tevredenheidsgarantie",
               "description": "100% tevreden of je volledige aankoopbedrag terug",
               "icon": "shopify:\/\/shop_images\/Smile2.png",
-              "uspLinkUrl": "shopify:\/\/pages\/verzending-en-retour"
+              "uspLinkUrl": "shopify:\/\/pages\/verzending-en-levering"
             }
           },
           "3011a919-3be7-41c5-aa09-25734c19504d": {
@@ -876,7 +878,7 @@
               "title": "30 dagen volledig retourrecht",
               "description": "Genoeg tijd om een beslissing te maken",
               "icon": "shopify:\/\/shop_images\/Checkmark.png",
-              "uspLinkUrl": "shopify:\/\/pages\/verzending-en-retour"
+              "uspLinkUrl": "shopify:\/\/pages\/verzending-en-levering"
             }
           }
         },

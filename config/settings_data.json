@@ -69,7 +69,7 @@
     "base_font_size": 15,
     "custom_quantity_breaks": true,
     "dbtfy_back_in_stock": true,
-    "dbtfy_cart_countdown": false,
+    "dbtfy_cart_countdown": true,
     "dbtfy_cart_favicon": false,
     "dbtfy_cart_discount": true,
     "dbtfy_collection_addtocart": false,
@@ -103,6 +103,11 @@
     "dbtfy_back_in_stock_btn": "Hou mij op de hoogte",
     "dbtfy_back_in_stock_btn_animation": true,
     "dbtfy_back_in_stock_success": "<p>Wij zullen u op de hoogte brengen zodra het artikel op voorraad is!<\/p>",
+    "dbtfy_cart_countdown_time_mins": 20,
+    "dbtfy_cart_countdown_icons": "update",
+    "dbtfy_cart_countdown_prefix": "Uw producten zijn gereserveerd voor",
+    "dbtfy_cart_countdown_icon_over": "update",
+    "dbtfy_cart_countdown_msg_over": "Bestel voordat uw producten uitverkocht zijn",
     "dbtfy_cart_discount_label": "Kortingscode",
     "dbtfy_cart_discount_placeholder": "Vul hier je kortingscode in",
     "dbtfy_cart_discount_apply_button_label": "Gebruik kortingscode",
@@ -240,8 +245,8 @@
           "b564488c-98d5-4f94-bf67-5c797a39b907": {
             "type": "cart-upsell",
             "settings": {
-              "dbtfy_cart_general_upsell_title": "Deal van de week! Het rugkussen is een goede keuze als u veel uren van de dag achter uw bureau doorbrengt. Normale prijs €59,00",
-              "dbtfy_cart_general_upsell_product_offer": "ergonomisch-rugkussen",
+              "dbtfy_cart_general_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw shirt of BH",
+              "dbtfy_cart_general_upsell_product_offer": "waszakje-voor-posture-shirt",
               "dbtfy_cart_general_upsell_btn_title": "Ja, graag"
             }
           },
@@ -249,9 +254,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw BH.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "anodyne-bh",
-              "dbtfy_cart_specific_upsell_product_offer": "copy-of-30x21x7cm",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -259,9 +264,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zwart",
-              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -269,9 +274,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zwart",
-              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -279,9 +284,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-wit",
-              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -289,9 +294,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-wit",
-              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -299,9 +304,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-zwart",
-              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -309,9 +314,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-zwart",
-              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -319,9 +324,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-wit",
-              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -329,9 +334,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-wit",
-              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -339,9 +344,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-mint",
-              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -349,9 +354,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-nude",
-              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -359,9 +364,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-nude",
-              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, graag"
             }
           },
@@ -369,9 +374,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-blauw",
-              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "ja, graag"
             }
           },
@@ -379,9 +384,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw Posture Shirt.",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal van de week!<\/strong> Koop een houdingscorrector voor slechts € 25,00. Normale prijs €39,00 (bespaar 36%)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-blauw",
-              "dbtfy_cart_specific_upsell_product_offer": "waszakje-voor-posture-shirt",
+              "dbtfy_cart_specific_upsell_product_offer": "houding-corrector-basic",
               "dbtfy_cart_specific_upsell_btn_title": "ja, graag"
             }
           }
@@ -462,7 +467,7 @@
             "type": "message",
             "settings": {
               "announcement_text": "<p>Deal van de week eindigt in: <\/p>",
-              "announcement_counter": "Mar 7, 2022 23:59:59",
+              "announcement_counter": "Mar 13, 2022 23:59:59",
               "announcemen_link": "",
               "announcement_end_text": ""
             }

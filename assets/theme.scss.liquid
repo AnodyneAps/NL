@@ -3391,7 +3391,20 @@ button {
     }
   }
 }
-
+.custom__labels--label{
+  position: absolute;
+  bottom: 10px;
+  z-index: 999;
+  background: $cAccent;
+  padding: 1px 10px;
+  font-size: 0.819rem;
+  font-weight: 500;
+  color: $white;
+  @include screenUp($postSmall){
+    padding: 2px 14px;
+    font-size: 0.999rem;
+  }
+}
 /*================ _Dropdown ================*/
 // Dropdown wrapper
 .dropdown-wrapper {
@@ -5946,15 +5959,12 @@ cite {
   @include flex-direction(column);
   @include transition($transitionDrawers);
   @include noFocus;
-
   &.js-drawer-open {
     @include display-flexbox;
   }
-
   &.is-closing {
     @include display-flexbox;
   }
-
   .drawer__header, .drawer__footer, .drawer__inner {
     opacity: 0;
   }

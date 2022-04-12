@@ -78,7 +78,7 @@
     "dbtfy_back_in_stock": true,
     "dbtfy_cart_countdown": true,
     "dbtfy_cart_favicon": false,
-    "dbtfy_cart_discount": false,
+    "dbtfy_cart_discount": true,
     "dbtfy_collection_addtocart": false,
     "dbtfy_collection_filters": false,
     "dbtfy_color_swatches": true,
@@ -477,7 +477,7 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.nl\/collections\/alle-producten\" title=\"https:\/\/www.anodyne.nl\/collections\/alle-producten\"><strong>VOORJAARSAANBIEDING | <\/strong>TOT WEL -45%<\/a><\/p>",
+              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.nl\/pages\/anodyne-korting\" title=\"https:\/\/www.anodyne.nl\/pages\/anodyne-korting\"><span style=\"text-decoration:underline\"><strong>KLIK HIER<\/strong><\/span> en bespaar 25% op alles<\/a><\/p>",
               "announcement_counter": "",
               "announcemen_link": "",
               "announcement_end_text": ""
@@ -1165,6 +1165,8 @@
       "collection-template": {
         "type": "collection-template",
         "settings": {
+          "collection_stars": "shopify:\/\/shop_images\/tp_nl_f63ea681-ab60-4574-aca8-f56cafb8f129.jpg",
+          "stars_url": "https:\/\/nl.trustpilot.com\/review\/anodyne.nl?stars=5",
           "collection_tags_enable": false,
           "collection_tags_count": false,
           "collection_multiple_tags_filtering_enable": false,
@@ -1172,11 +1174,7 @@
           "tag_selector": "button",
           "rows": "4",
           "desktop_grid": "4",
-          "mobile_grid": "2",
-          "collection_banner": "shopify:\/\/shop_images\/December-offers_NL.jpg",
-          "collection_banner_mobile": "shopify:\/\/shop_images\/December-offers_mobile_NL.jpg",
-          "collection_banner_postureshirt": "shopify:\/\/shop_images\/Desktop_NL_45829346-3dce-45f1-b740-64aa2572f202.jpg",
-          "collection_banner_mobile_postureshirt": "shopify:\/\/shop_images\/Mobile_NL.jpg"
+          "mobile_grid": "2"
         }
       },
       "dbtfy-collection-filters": {
@@ -1367,7 +1365,7 @@
               "dbtfy_faq_page_open": false,
               "dbtfy_faq_page_icon": "",
               "title": "Mijn Anodyne® Posture Shirt zit (erg) strak, is het te klein?",
-              "text": "<p>De Posture Shirts van Anodyne dienen strak te zitten voor het juiste effect. Je kunt alleen bepalen of een shirt te groot of te klein is door te kijken naar de speciale banden op de achterzijde rond de schouders. De voorzijde is elastisch, en zal altijd nauw op de huid aansluiten, ook bij een te grote maat. Wanneer de NeuroBands (de speciale banden aan de achterzijde) nauw aansluiten op de huid en je een lichte ”trekwerking” rond de schouders voelt, heb je de juiste maat. De meeste mensen moeten wennen aan een strak shirt, gebruik daarom de 60 dagen proefperiode zodat je goed kunt testen of je aan het shirt kunt wennen.<\/p><p>Kun je het effect goed merken, maar heb je moeite met het aan- en uittrekken van je product? Overweeg dan om je Anodyne® Posture Shirt om te ruilen voor een Posture Shirt Zipper. Het effect van het shirt is hetzelfde, maar door de rits is dit shirt makkelijker om aan en uit te trekken. Neem bij twijfel gerust contact op met de klantenservice. Wanneer u een foto van je rug stuurt terwijl je het shirt aan hebt, kunnen zij direct zien of u de juiste maat draagt.<br\/><\/p>"
+              "text": "<p>De Posture Shirts van Anodyne dienen strak te zitten voor het juiste effect. Je kunt alleen bepalen of een shirt te groot of te klein is door te kijken naar de speciale banden op de achterzijde rond de schouders. De voorzijde is elastisch, en zal altijd nauw op de huid aansluiten, ook bij een te grote maat. Wanneer de NeuroBands (de speciale banden aan de achterzijde) nauw aansluiten op de huid en je een lichte ”trekwerking” rond de schouders voelt, heb je de juiste maat. De meeste mensen moeten wennen aan een strak shirt, gebruik daarom de 30 dagen proefperiode zodat je goed kunt testen of je aan het shirt kunt wennen.<\/p><p>Kun je het effect goed merken, maar heb je moeite met het aan- en uittrekken van je product? Overweeg dan om je Anodyne® Posture Shirt om te ruilen voor een Posture Shirt Zipper. Het effect van het shirt is hetzelfde, maar door de rits is dit shirt makkelijker om aan en uit te trekken. Neem bij twijfel gerust contact op met de klantenservice. Wanneer u een foto van je rug stuurt terwijl je het shirt aan hebt, kunnen zij direct zien of u de juiste maat draagt.<br\/><\/p>"
             }
           },
           "3fe9b653-4494-4c5f-94fa-735d75fe3361": {

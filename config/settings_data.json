@@ -27,6 +27,7 @@
     "page_wrapper": "1248",
     "payment_icon_size": 24,
     "sale_type": "percentage",
+    "browsing_link": "shopify:\/\/collections\/alle-producten",
     "zindex_drawer": "999",
     "cart_notes_enable": false,
     "color_announcement_bg": "#ff891d",
@@ -106,7 +107,7 @@
     "dbtfy_sticky_addtocart": false,
     "synced_variant_image": false,
     "dbtfy_wish_list": false,
-    "dbtfy_agree_text": "<p>Ik ga akkoord met Anodyne® Algemene Voorwaarden en het Anodyne® Privacybeleid<\/p>",
+    "dbtfy_agree_text": "<p>Ik ga akkoord met Anodyne® <a href=\"https:\/\/www.anodyne.nl\/policies\/terms-of-service\" title=\"https:\/\/www.anodyne.nl\/policies\/terms-of-service\">Algemene Voorwaarden<\/a> en het Anodyne® <a href=\"https:\/\/www.anodyne.nl\/policies\/privacy-policy\" title=\"https:\/\/www.anodyne.nl\/policies\/privacy-policy\">Privacybeleid<\/a><\/p>",
     "dbtfy_agree_warning_text": "<p>Je moet accepteren<\/p>",
     "dbtfy_agree_order_title": "Ik ga akkoord met Anodyne® Algemene Voorwaarden en het Anodyne® Privacybeleid",
     "dbtfy_agree_order_yes_answer": "Ja",
@@ -255,6 +256,7 @@
         "blocks": {
           "b564488c-98d5-4f94-bf67-5c797a39b907": {
             "type": "cart-upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_cart_general_upsell_title": "Voeg een waszakje toe en verleng de levensduur van uw shirt of BH",
               "dbtfy_cart_general_upsell_product_offer": "waszakje-voor-posture-shirt",
@@ -477,7 +479,7 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.nl\/pages\/anodyne-korting\" title=\"https:\/\/www.anodyne.nl\/pages\/anodyne-korting\"><span style=\"text-decoration:underline\"><strong>KLIK HIER<\/strong><\/span> en bespaar 25% op alles<\/a><\/p>",
+              "announcement_text": "<p><a href=\"\/collections\/alle-producten\" title=\"Alle producten\"><strong>VOORJAARSAANBIEDING! <\/strong>Tot wel <span style=\"text-decoration:underline\">-40%<\/span><\/a><\/p>",
               "announcement_counter": "",
               "announcemen_link": "",
               "announcement_end_text": ""

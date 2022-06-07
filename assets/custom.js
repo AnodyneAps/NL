@@ -107,47 +107,47 @@ const removeActiveHomeTabItemClass = () => {
 }
 
 //topbar counter
-let announcementCounterEndText = document.querySelector('.announcement-end-text');
-let announcementEndTextBack = document.querySelector('.announcement-message');
-const announcementDateId = document.getElementById('announcement_counter');
-let announcementEventDate = announcementDateId.getAttribute('data-announcement-date');
-function TopBarUpdateTimer(at, someId ) {
-future = Date.parse(at);
-now = new Date();
-diff = future - now;
+// let announcementCounterEndText = document.querySelector('.announcement-end-text');
+// let announcementEndTextBack = document.querySelector('.announcement-message');
+// const announcementDateId = document.getElementById('announcement_counter');
+// let announcementEventDate = announcementDateId.getAttribute('data-announcement-date');
+// function TopBarUpdateTimer(at, someId ) {
+// future = Date.parse(at);
+// now = new Date();
+// diff = future - now;
 
-if(diff >= 0){
-days = Math.floor(diff / (1000 * 60 * 60 * 24));
-hours = Math.floor(diff / (1000 * 60 * 60));
-mins = Math.floor(diff / (1000 * 60));
-secs = Math.floor(diff / 1000);
-	//add zeros
-	function addZero(num) {
-		return ("0" + parseInt(num)).substr(-2);
-	}
-d = addZero(days);
-h = addZero(hours - days * 24);
-m = addZero(mins - hours * 60);
-s = addZero(secs - mins * 60);
+// if(diff >= 0){
+// days = Math.floor(diff / (1000 * 60 * 60 * 24));
+// hours = Math.floor(diff / (1000 * 60 * 60));
+// mins = Math.floor(diff / (1000 * 60));
+// secs = Math.floor(diff / 1000);
+// 	//add zeros
+// 	function addZero(num) {
+// 		return ("0" + parseInt(num)).substr(-2);
+// 	}
+// d = addZero(days);
+// h = addZero(hours - days * 24);
+// m = addZero(mins - hours * 60);
+// s = addZero(secs - mins * 60);
 
-  if(d<1){
-  someId.innerHTML = `
-<div class="announcement_number"><span class="digit">${h}</span><span class="announcement_text">U<span class="hide-small">ren</span></span></div>
-<div class="announcement_number"><span class="digit">${m}</span><span class="announcement_text">M<span class="hide-small">inuten</span></span></div>
-<div class="announcement_number"><span class="digit">${s}</span><span class="announcement_text">S<span class="hide-small">econden</span></span></div>
-`
-  }else{
-  someId.innerHTML = `
-<div class="announcement_number"><span class="digit">${d}</span><span class="announcement_text">D<span class="hide-small">agen</span></span></div>
-<div class="announcement_number"><span class="digit">${h}</span><span class="announcement_text">U<span class="hide-small">ren</span></span></div>
-<div class="announcement_number"><span class="digit">${m}</span><span class="announcement_text">M<span class="hide-small">inuten</span></span></div>
-<div class="announcement_number"><span class="digit">${s}</span><span class="announcement_text">S<span class="hide-small">econden</span></span></div>
-`
+//   if(d<1){
+//   someId.innerHTML = `
+// <div class="announcement_number"><span class="digit">${h}</span><span class="announcement_text">U<span class="hide-small">ren</span></span></div>
+// <div class="announcement_number"><span class="digit">${m}</span><span class="announcement_text">M<span class="hide-small">inuten</span></span></div>
+// <div class="announcement_number"><span class="digit">${s}</span><span class="announcement_text">S<span class="hide-small">econden</span></span></div>
+// `
+//   }else{
+//   someId.innerHTML = `
+// <div class="announcement_number"><span class="digit">${d}</span><span class="announcement_text">D<span class="hide-small">agen</span></span></div>
+// <div class="announcement_number"><span class="digit">${h}</span><span class="announcement_text">U<span class="hide-small">ren</span></span></div>
+// <div class="announcement_number"><span class="digit">${m}</span><span class="announcement_text">M<span class="hide-small">inuten</span></span></div>
+// <div class="announcement_number"><span class="digit">${s}</span><span class="announcement_text">S<span class="hide-small">econden</span></span></div>
+// `
   
-  }
-}else {
-	announcementEndTextBack.innerHTML = `${announcementCounterEndText.innerHTML}`;
-	someId.innerHTML ='';
-}
-}
-setInterval('TopBarUpdateTimer(announcementEventDate, announcementDateId  )', 1000);
+//   }
+// }else {
+// 	announcementEndTextBack.innerHTML = `${announcementCounterEndText.innerHTML}`;
+// 	someId.innerHTML ='';
+// }
+// }
+// setInterval('TopBarUpdateTimer(announcementEventDate, announcementDateId  )', 1000);
